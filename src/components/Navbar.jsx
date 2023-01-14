@@ -20,18 +20,22 @@ function Navbar(props) {
             About
           </a>
         </li>
-
         <li className="nav_button">
           <a href="#" className="nav_link">
-            Projects
+            Skills
           </a>
         </li>
-
+        <li className="nav_button">
+          <a href="#" className="nav_link">
+            Portfolio
+          </a>
+        </li>
+        {/* 
         <li className="nav_button">
           <a href="#" className="nav_link">
             Other
           </a>
-        </li>
+        </li> */}
         <li className="nav_button">
           <a href="#" className="nav_link">
             Contact
