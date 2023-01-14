@@ -42,5 +42,6 @@ background: greenyellow;}
 .nav_menu{
     display: flex;
     align-items: center;
-    
+    justify-content: space-around;
+   gap: 3rem; 
 }
