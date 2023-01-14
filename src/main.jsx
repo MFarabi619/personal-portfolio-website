@@ -5,10 +5,6 @@ import './index.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <head>
-      <title>
-      </title>
-    </head>
     <App />
   </React.StrictMode>,
 )
