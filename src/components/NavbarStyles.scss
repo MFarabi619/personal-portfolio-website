@@ -45,3 +45,15 @@ background: greenyellow;}
     justify-content: space-around;
    gap: 3rem; 
 }
+
+.nav_toggler div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: darkgray;
+}
+
+.nav_toggler{
+cursor: pointer;
+}
+

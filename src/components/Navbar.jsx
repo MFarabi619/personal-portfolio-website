@@ -42,6 +42,12 @@ function Navbar(props) {
           </a>
         </li>
       </ul>
+
+      <div className="nav_toggler">
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
+      </div>
     </nav>
   );
 }
