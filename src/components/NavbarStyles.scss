@@ -62,5 +62,18 @@ display: none;
     .nav_toggler{
         display: block;
     }
+    .nav_menu{
+        position: fixed;
+        top:  7vh;
+        right: 0;
+        width: 50%;
+        height:93vh;
+        background: greenyellow;
+        flex-direction: column;
+        transform: translateX(100%);
+    }
 }
 
+.nav_active{
+    transform: translateX(0);
+}

@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavbarStyles.scss";
 
 function Navbar(props) {
+  const [active, setActive] = useState("nav_menu");
+  const navToggle = () => {
+    active === "nav_menu"
+      ? setActive("nav_menu nav_active")
+      : setActive("nav_menu");
+  };
+
   return (
     <nav className="nav">
       <a href="#" className="nav_logo">
         <img className="logoImage" src="/src/assets/Logo1.png" alt="" />
       </a>
 
-      <ul className="nav_menu">
+      <ul className={active}>
         <li className="nav_button">
           <a href="#" className="nav_link">
             Home
@@ -43,7 +50,7 @@ function Navbar(props) {
         </li>
       </ul>
 
-      <div className="nav_toggler">
+      <div onClick={navToggle} className="nav_toggler">
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
