@@ -55,5 +55,12 @@ background: greenyellow;}
 
 .nav_toggler{
 cursor: pointer;
+display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_toggler{
+        display: block;
+    }
 }
 
