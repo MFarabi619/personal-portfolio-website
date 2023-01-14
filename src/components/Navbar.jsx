@@ -5,9 +5,9 @@ function Navbar(props) {
   return (
     <nav className="nav">
       <a href="#" className="nav_logo">
-        {/* <img className="logoImage"  src="/src/assets/Logo1.png" alt="" /> */}
-        Logo here
+        <img className="logoImage" src="/src/assets/Logo1.png" alt="" />
       </a>
+
       <ul className="nav_menu">
         <li className="nav_button">
           <a href="#" className="nav_link">
