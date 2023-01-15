@@ -71,9 +71,12 @@ display: none;
         background: greenyellow;
         flex-direction: column;
         transform: translateX(100%);
+        transition: 0.5s ease-in;
     }
 }
 
 .nav_active{
     transform: translateX(0);
 }
+
+

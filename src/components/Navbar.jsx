@@ -4,6 +4,7 @@ import "./NavbarStyles.scss";
 function Navbar(props) {
   const [active, setActive] = useState("nav_menu");
   const navToggle = () => {
+    console.log("fdasf");
     active === "nav_menu"
       ? setActive("nav_menu nav_active")
       : setActive("nav_menu");
