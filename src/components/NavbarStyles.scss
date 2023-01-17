@@ -1,73 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
-.nav_logo{
+.nav_logo {
     width: 75px;
     height: auto;
 }
 
-.logoImage{
-max-width: 100%;
-height: auto;
+.logoImage {
+    max-width: 100%;
+    height: auto;
 }
 
-*, *::after, *::before{
+*,
+*::after,
+*::before {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', 'sans-serif';
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
-    font-size: 1.6 rem;
-}
-li{
-    list-style: none ;
+body {
+    font-size: 1.6rem;
 }
 
-a{
+li {
+    list-style: none;
+}
+
+a {
     text-decoration: none;
-    color: darkgray; 
+    color: darkgray;
 }
 
-.nav{
-    display: flex;
-align-items: center;
-justify-content: space-around;
-height: 8vh;
-background: greenyellow;}
-
-.nav_menu{
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-   gap: 3rem; 
+    height: 8vh;
+    background: greenyellow;
 }
 
-.nav_toggler div{
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav_toggler div {
     width: 2.5rem;
     height: 0.2rem;
     margin: 0.4rem;
     background: darkgray;
 }
 
-.nav_toggler{
-cursor: pointer;
-display: none;
+.nav_toggler {
+    cursor: pointer;
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
-    .nav_toggler{
+    .nav_toggler {
         display: block;
     }
-    .nav_menu{
+
+    .nav_menu {
         position: fixed;
-        top:  7vh;
+        top: 7vh;
         right: 0;
         width: 50%;
-        height:93vh;
+        height: 93vh;
         background: greenyellow;
         flex-direction: column;
         transform: translateX(100%);
@@ -75,16 +80,18 @@ display: none;
     }
 }
 
-.nav_active{
+.nav_active {
     transform: translateX(0);
 }
 
-.toggle .line1{
+.toggle .line1 {
     transform: rotate(-45deg) translate(-4px, 5px);
 }
-.toggle .line2{
+
+.toggle .line2 {
     opacity: 0;
 }
-.toggle .line3{
+
+.toggle .line3 {
     transform: rotate(45deg) translate(-4px, -5px);
 }
