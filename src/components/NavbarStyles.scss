@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
 .nav_logo {
-    width: 75px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 13rem;
     height: auto;
 }
 
