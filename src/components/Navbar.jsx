@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./NavbarStyles.scss";
+import logo from '/src/assets/Logo1.png'
 
 function Navbar(props) {
   const [active, setActive] = useState("nav_menu");
@@ -19,7 +20,7 @@ function Navbar(props) {
   return (
     <nav className="nav">
       <a href="#" className="nav_logo">
-        <img className="logoImage" src="/src/assets/Logo1.png" alt="" />
+        <img className="logoImage" src={logo} alt="" />
       </a>
 
       <ul className={active}>
