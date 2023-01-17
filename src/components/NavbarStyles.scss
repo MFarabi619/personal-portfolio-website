@@ -34,7 +34,7 @@ li {
 
 a {
     text-decoration: none;
-    color: darkgray;
+    color: #ab9333;
 }
 
 .nav {
@@ -42,7 +42,7 @@ a {
     align-items: center;
     justify-content: space-around;
     height: 8vh;
-    background: linear-gradient(90deg, rgba(73,255,0,1) 0%, rgba(27,121,9,1) 29%, rgba(11,44,17,1) 88%, rgba(2,0,36,1) 100%);;
+    background: linear-gradient(90deg, rgb(57, 202, 0) 0%, rgba(27,121,9,1) 29%, rgba(11,44,17,1) 88%, rgba(2,0,36,1) 100%);;
 }
 
 .nav_menu {
@@ -56,7 +56,7 @@ a {
     width: 2.5rem;
     height: 0.2rem;
     margin: 0.4rem;
-    background: darkgray;
+    background: #ab9333;
 }
 
 .nav_toggler {
@@ -75,7 +75,7 @@ a {
         right: 0;
         width: 50%;
         height: 93vh;
-        background: greenyellow;
+        background: rgb(52, 87, 0);
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.5s ease-in;
