@@ -6,6 +6,8 @@ import hill3 from "/src/assets/hill3.png";
 import hill4 from "/src/assets/hill4.png";
 import hill5 from "/src/assets/hill5.png";
 import tree from "/src/assets/tree.png";
+import leaf from "/src/assets/leaf.png";
+import plant from "/src/assets/plant.png";
 
 function Parallax(props) {
   return (
@@ -22,8 +24,8 @@ function Parallax(props) {
       Hello, I am
       <h2 id="text">Mumtahin Farabi</h2>
       {/* </h5> */}
-      <img src="/src/assets/leaf.png" id="leaf" />
-      <img src="/src/assets/plant.png" id="plant" />
+      <img src={leaf} id="leaf" />
+      <img src={plant} id="plant" />
       <section className="About">
         <h3>About Me</h3>
         <p>
