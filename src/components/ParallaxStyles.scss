@@ -7,20 +7,13 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     z-index: 1;
-}
-
-.Hello{
-font-size: 6rem;
-color: #eeff00;
+    width: auto;
+    color: #eeff00;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-size: 5vw;
+    margin-bottom: 60px;
+    position: fixed;
 }
-
-.Name{
-font-size: 10rem;
-color: #eeff00;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-}
-
 
 .About{
     font-size: 2rem;
