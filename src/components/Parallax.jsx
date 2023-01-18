@@ -29,7 +29,7 @@ function Parallax(props) {
     <div className="parallax">
       <header>
         <img src={nightSky} id="nightSky" />
-        <img src={dawnSky} id="dawnSky" />
+        {/* <img src={dawnSky} id="dawnSky" /> */}
         <img src={hill1} id="hill2" />
         <img src={hill2} id="hill3" />
         <img src={hill3} id="hill4" />
