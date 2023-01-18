@@ -26,7 +26,7 @@ function Parallax(props) {
       {/* </h5> */}
       <img src={leaf} id="leaf" />
       <img src={plant} id="plant" />
-      <section className="About">
+      <div className="About">
         <h3>About Me</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
@@ -34,7 +34,7 @@ function Parallax(props) {
           maiores, modi cumque debitis. Molestiae doloribus mollitia aliquid
           sapiente laboriosam error culpa aperiam!
         </p>
-      </section>
+      </div>
     </div>
   );
 }
