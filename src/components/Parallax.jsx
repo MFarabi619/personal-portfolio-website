@@ -8,11 +8,13 @@ import hill5 from "/src/assets/hill5.png";
 import tree from "/src/assets/tree.png";
 import leaf from "/src/assets/leaf.png";
 import plant from "/src/assets/plant.png";
+import nightSky from "/src/assets/nightSky.jpg";
 
 function Parallax(props) {
   return (
     <div className="parallax">
       <header>
+        <img src={nightSky} id="nightSky" />
         <img src={hill1} id="hill2" />
         <img src={hill2} id="hill3" />
         <img src={hill3} id="hill4" />
