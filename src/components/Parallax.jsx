@@ -9,12 +9,27 @@ import tree from "/src/assets/tree.png";
 import leaf from "/src/assets/leaf.png";
 import plant from "/src/assets/plant.png";
 import nightSky from "/src/assets/nightSky.jpg";
+import dawnSky from "/src/assets/dawnSky.webP";
 
 function Parallax(props) {
+  const [scrollPos, setScrollPos] = useState(0);
+  const handleScroll = () => {
+    setScrollPos(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="parallax">
       <header>
         <img src={nightSky} id="nightSky" />
+        <img src={dawnSky} id="dawnSky" />
         <img src={hill1} id="hill2" />
         <img src={hill2} id="hill3" />
         <img src={hill3} id="hill4" />
@@ -25,7 +40,7 @@ function Parallax(props) {
           <h5 className="Hello">Hello, I am</h5>
           <h2 className="Name">Mumtahin Farabi</h2>
         </div>
-        <img src={leaf} id="leaf" />
+        <img src={leaf} id="leaf" scrollPos />
         <img src={plant} id="plant" />
       </header>
     </div>
