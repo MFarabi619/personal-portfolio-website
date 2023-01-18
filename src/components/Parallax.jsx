@@ -9,7 +9,7 @@ import tree from "/src/assets/tree.png";
 import leaf from "/src/assets/leaf.png";
 import plant from "/src/assets/plant.png";
 import nightSky from "/src/assets/nightSky.jpg";
-import dawnSky from "/src/assets/dawnSky.webP";
+import dawnSky from "/src/assets/dawnSky.webp";
 
 function Parallax(props) {
   const [scrollPos, setScrollPos] = useState(0);
