@@ -19,7 +19,6 @@ function Parallax(props) {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -30,10 +29,17 @@ function Parallax(props) {
       <header>
         <img src={nightSky} id="nightSky" />
         {/* <img src={dawnSky} id="dawnSky" /> */}
-        <img src={hill1} style={{ top: scrollPos * 0.1 }} id="hill2" />
-        <img src={hill2} id="hill3" />
-        <img src={hill3} id="hill4" />
-        <img src={hill4} style={{ left: scrollPos * -1.5 }} id="hill1" />
+        <img
+          src={hill1}
+          id="hill1"
+          style={{
+            top: scrollPos < 120 ? scrollPos * 0.5 : 60,
+          }}
+        />
+
+        <img src={hill2} id="hill2" />
+        <img src={hill3} id="hill3" />
+        <img src={hill4} style={{ left: scrollPos * -1.5 }} id="hill4" />
         <img src={hill5} style={{ left: scrollPos * 1.5 }} id="hill5" />
         <img src={tree} id="tree" />
         <div className="Text">
