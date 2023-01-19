@@ -30,17 +30,22 @@ function Parallax(props) {
       <header>
         <img src={nightSky} id="nightSky" />
         {/* <img src={dawnSky} id="dawnSky" /> */}
-        <img src={hill1} id="hill2" />
+        <img src={hill1} style={{ top: scrollPos * 0.1 }} id="hill2" />
         <img src={hill2} id="hill3" />
         <img src={hill3} id="hill4" />
-        <img src={hill4} id="hill1" />
-        <img src={hill5} id="hill5" />
+        <img src={hill4} style={{ left: scrollPos * -1.5 }} id="hill1" />
+        <img src={hill5} style={{ left: scrollPos * 1.5 }} id="hill5" />
         <img src={tree} id="tree" />
         <div className="Text">
           <h5 className="Hello">Hello, I am</h5>
           <h2 className="Name">Mumtahin Farabi</h2>
         </div>
-        <img src={leaf} id="leaf" scrollPos />
+        <img
+          src={leaf}
+          style={{ top: scrollPos * -1.5, left: scrollPos * 1.5 }}
+          id="leaf"
+          scrollPos
+        />
         <img src={plant} id="plant" />
       </header>
     </div>
