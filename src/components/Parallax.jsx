@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./ParallaxStyles.scss";
-import hill1 from "/src/assets/hill1.png";
-import hill2 from "/src/assets/hill2.png";
-import hill3 from "/src/assets/hill3.png";
-import hill4 from "/src/assets/hill4.png";
-import hill5 from "/src/assets/hill5.png";
-import tree from "/src/assets/tree.png";
-import leaf from "/src/assets/leaf.png";
-import plant from "/src/assets/plant.png";
-import nightSky from "/src/assets/nightSky.jpg";
-import dawnSky from "/src/assets/dawnSky.webp";
+import hill1 from "/src/assets/parallax images/hill1.png";
+import hill2 from "/src/assets/parallax images/hill2.png";
+import hill3 from "/src/assets/parallax images/hill3.png";
+import hill4 from "/src/assets/parallax images/hill4.png";
+import hill5 from "/src/assets/parallax images/hill5.png";
+import tree from "/src/assets/parallax images/tree.png";
+import leaf from "/src/assets/parallax images/leaf.png";
+import plant from "/src/assets/parallax images/plant.png";
+import nightSky from "/src/assets/parallax images/nightSky.jpg";
+import dawnSky from "/src/assets/parallax images/dawnSky.webp";
 
 function Parallax(props) {
   const [scrollPos, setScrollPos] = useState(0);
