@@ -2,6 +2,7 @@ import "./App.scss";
 import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Parallax />
       <About />
+      <Skills />
     </div>
   );
 }
