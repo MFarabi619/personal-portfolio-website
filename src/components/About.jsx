@@ -4,29 +4,15 @@ import "./AboutStyles.scss";
 function About(props) {
   return (
     <div className="About">
-      <h3>About Me</h3>
+      <h1>About Me 👋</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
-        numquam cupiditate! Beatae eos placeat dolores, odio rerum sed
-        voluptatibus eligendi animi nam corrupti, delectus non tenetur optio
-        tempore harum fugit!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dolorem
-        repellendus corrupti tempore minima eaque quasi iusto cum aliquid saepe
-        dolor, labore suscipit quam aperiam veritatis aspernatur iure voluptatem
-        ea?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde porro
-        commodi aliquid numquam vero officia quia quae dignissimos hic expedita
-        soluta deserunt placeat doloremque, sequi adipisci ipsa fugit eaque cum?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic provident
-        et numquam temporibus voluptate cupiditate impedit ab nesciunt
-        perspiciatis cumque. Excepturi officiis facere minus, mollitia et
-        fugiat. Minima, sit magni!
+        I am currently a Software Engineering student at Carleton University.💻
+        <br />
+        <br /> I am an aspiring Full-stack developer that enjoys aesthetic UI
+        design and providing a seamless user experience.🥳 <br />
+        <br /> My passion for learning new technologies and exploring different
+        ideas is driven by my curiosity.💡 <br />
+        <br /> Feel free to explore my latest projects through my website!🛖
       </p>
     </div>
   );
