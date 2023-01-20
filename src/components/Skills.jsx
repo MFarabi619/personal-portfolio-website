@@ -24,37 +24,44 @@ function Skills() {
   return (
     <div className="Skills">
       <h1 className="Title">Skills 🤹‍♂️</h1>
-      <div className="Tools">
-        Tools
-        <div className="Images">
-          <img src={vscode_logo} alt="" />
-          <img src={vim_logo} alt="" />
-          <img src={androidstudio_logo} alt="" />
-          <img src={flutter_logo} alt="" />
-          <img src={git_logo} alt="" />
-          <img src={figma_logo} alt="" />
-          <img src={latex_logo} alt="" />
+
+      <div className="Cards">
+        <div className="Tools">
+          <text>Tools⚒️</text>
+          <div className="Images">
+            <img src={vscode_logo} className="vscode_logo" alt="" />
+            <img src={vim_logo} className="vim_logo" alt="" />
+            <img
+              src={androidstudio_logo}
+              className="androidstudio_logo"
+              alt=""
+            />
+            <img src={flutter_logo} className="flutter_logo" alt="" />
+            <img src={git_logo} className="git_logo" alt="" />
+            <img src={figma_logo} className="figma_logo" alt="" />
+            <img src={latex_logo} className="latex_logo" alt="" />
+          </div>
         </div>
-      </div>
-      <div className="Languages">
-        Languages
-        <div className="Images">
-          <img src={html5_logo} alt="" />
-          <img src={css_logo} alt="" />
-          <img src={javascript_logo} alt="" />
-          <img src={c_logo} alt="" />
-          <img src={cpp_logo} alt="" />
-          <img src={python_logo} alt="" />
-          <img src={java_logo} alt="" />
-          <img src={dart_logo} alt="" />
+        <div className="Languages">
+          <text>Languages🔡</text>
+          <div className="Images">
+            <img src={html5_logo} className="html5_logo" alt="" />
+            <img src={css_logo} className="css_logo" alt="" />
+            <img src={javascript_logo} className="javascript_logo" alt="" />
+            <img src={sass_logo} className="sass_logo" alt="" />
+            <img src={python_logo} className="python_logo" alt="" />
+            <img src={java_logo} className="java_logo" alt="" />
+            <img src={c_logo} className="c_logo" alt="" />
+            <img src={cpp_logo} className="cpp_logo" alt="" />
+            <img src={dart_logo} className="dart_logo" alt="" />
+          </div>
         </div>
-      </div>
-      <div className="Frameworks">
-        Libraries/Frameworks
-        <div className="Images">
-          <img src={react_logo} alt="" />
-          <img src={sass_logo} alt="" />
-          <img src={bootstrap_logo} alt="" />
+        <div className="Frameworks">
+          <text>Libraries/Frameworks📚</text>
+          <div className="Images">
+            <img src={react_logo} className="react_logo" alt="" />
+            <img src={bootstrap_logo} className="bootstrap_logo" alt="" />
+          </div>
         </div>
       </div>
     </div>

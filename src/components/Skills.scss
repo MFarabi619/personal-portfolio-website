@@ -1,40 +1,79 @@
 .Skills{
 display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 2vw;
     padding: 2rem;
     background: #003329;
     color: white;
-
 .Title{
-    margin: 3% 0 0 0;
+    margin: 3% 0 3% 0;
     align-self: center;
 }
 
-.Tools{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-justify-content: center;
-}
+.Cards{
 
-
-.Languages{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-}
-
-
-.Frameworks{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-}
-
-.Images{
+    
     display: flex;
-    max-width: 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    // margin: 0 5% 0 0;
+    
+    text{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        // margin: 10rem 0 0 0;
+        font-size: larger;
+        padding: 1rem;
+    }
+    
+    .Tools{
+        img{
+            height: 4vw;
+        }
+        .flutter_logo{
+            order: 8;
+            height: 4vw;
+        }
+        .git_logo{
+            height: 4vw;
+        }
+        .figma_logo{
+            height: 3vw;
+        }
+        }
+    }
+    
+    .Languages{
+        img{
+height: 6vw;
+        }
+        .html_logo, .css_logo, javascript_logo{}
+    }
+    
+    .Frameworks{       img{
+height: 9vw;
+        }
+    }
+    
+    .Images{
+
+        &:hover{
+             border-radius: 20px;
+             background-color: #00b994;
+             transition: 0.7s ease-in-out;
+         }
+
+         display: flex;
+         justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-height: 80vh;
+        max-width: 50vh;
+        img{
+            margin: 2rem;
+    }
+
 }
+
 
 }
