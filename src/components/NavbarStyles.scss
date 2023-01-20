@@ -1,116 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 
 *,
 *::after,
 *::before {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', 'sans-serif';
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
-
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 8vh;
-    background: linear-gradient(90deg, rgb(57, 202, 0) 0%, rgba(27,121,9,1) 29%, rgba(11,44,17,1) 88%, rgba(2,0,36,1) 100%);;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: linear-gradient(
+    90deg,
+    rgb(57, 202, 0) 0%,
+    rgba(27, 121, 9, 1) 29%,
+    rgba(11, 44, 17, 1) 88%,
+    rgba(2, 0, 36, 1) 100%
+  );
 }
 
 .nav_logo {
-    display: flex;
-    justify-content: flex-start;
-    justify-self:left;
-    max-width: 13rem;
+  display: flex;
+  justify-content: flex-start;
+  justify-self: left;
+  max-width: 13rem;
 }
 
 .logoImage {
-    padding: none;
-    margin: none;
-    width: auto;
-    height: auto;
-    max-width: 20vh;
+  padding: none;
+  margin: none;
+  width: auto;
+  height: auto;
+  max-width: 20vh;
 }
 
 .nav_link {
-    font-size: 2.5vh;
-    text-decoration: none;
-color: #c0ae54;
-padding: 6px 15px;
-border-radius: 20px;
-margin: 0 10 px;
-font-weight: 600;
+  font-size: 2.5vh;
+  text-decoration: none;
+  color: #c0ae54;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10 px;
+  font-weight: 600;
 
-&:hover{
-background: #c0ae54;
-color:aliceblue;
-transition: 0.3s ease-in;
+  &:hover {
+    background: #c0ae54;
+    color: aliceblue;
+    transition: 0.3s ease-in;
+  }
 }
-}
-
 
 .nav_menu {
-    // position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
+  // position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
 }
 
 .nav_toggler div {
-    width: 2.5rem;
-    height: 0.2rem;
-    margin: 0.4rem;
-    background: #ab9333;
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: #ab9333;
+  transition: 0.5s ease-in;
 }
 
 .nav_toggler {
-    cursor: pointer;
-    display: none;
+  cursor: pointer;
+  display: none;
 }
 
 @media screen and (max-width: 960px) {
-    .nav_toggler {
-        display: block;
-    }
+  .nav_toggler {
+    display: block;
+  }
 
-    .nav_menu {
-        position: fixed;
-        z-index: 5;
-        top: 8vh;
-        right: 0;
-        width: 50%;
-        height: 93vh;
-        background: rgba(52, 87, 0, 0.884);
-        flex-direction: column;
-        transform: translateX(100%);
-        transition: 0.5s ease-in;
-    }
+  .nav_menu {
+    position: fixed;
+    z-index: 5;
+    top: 8vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background: rgba(52, 87, 0, 0.884);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
 }
 
 .nav_active {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 .toggle {
-.line1 {
+  .line1 {
     transform: rotate(-45deg) translate(-4px, 5px);
-}  
-.line2 {
+  }
+  .line2 {
     opacity: 0;
-}
-.line3 {
+  }
+  .line3 {
     transform: rotate(45deg) translate(-4px, -5px);
+  }
 }
-}
-
-
