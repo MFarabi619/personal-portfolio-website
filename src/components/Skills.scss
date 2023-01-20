@@ -13,13 +13,28 @@ display: flex;
 
 .Tools{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 flex-wrap: wrap;
-    // .Images{
-    //     // scale: .1;
-    // }
-
+justify-content: center;
 }
 
+
+.Languages{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+
+.Frameworks{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.Images{
+    display: flex;
+    max-width: 5px;
+}
 
 }
