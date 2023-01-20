@@ -6,7 +6,8 @@ function About(props) {
     <div className="About">
       <h1>About Me 👋</h1>
       <p>
-        I am currently a Software Engineering student at Carleton University.💻
+        I am currently an undergraduate student at Carleton University pursuing
+        a degree in Software Engineering.💻
         <br />
         <br /> I am an aspiring Full-stack developer that enjoys aesthetic UI
         design and providing a seamless user experience.🥳 <br />
