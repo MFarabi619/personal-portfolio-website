@@ -1,5 +1,6 @@
 import React from "react";
 import "./PortfolioStyles.scss";
+import { FaGithub } from "react-icons/fa";
 
 function Portfolio(props) {
   return (
@@ -24,8 +25,24 @@ function Portfolio(props) {
           </div>
           <div className="back">
             <div className="inner">
-              <button className="Livedemo"></button>
-              <button className="Icon"></button>
+              <div className="buttons">
+                <a
+                  href="https://javascript-calculator-mfarabi.vercel.app/"
+                  className="neon-button"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/MFarabi619/javascript-calculator"
+                  className="neon-button"
+                  id="githubicon"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </div>
             </div>
           </div>
         </div>
