@@ -1,18 +1,19 @@
-.About{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5vw;
-    padding: 2vw;
-    background: #003329;
-    color: white;
+.About {
+  --fs-title: clamp(2rem, 8vw, 4rem);
+  --fs-body: clamp(1.5rem, 4vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  background: #003329;
+  color: white;
 
-
-    h1{
-        align-self: center;
-        margin: 8% 0 2% 0;
-    }
-    p{
-        align-self: center;
-    margin: 2rem 10% 0 ;
-    }
+  h1 {
+    font-size: var(--fs-title);
+    align-self: center;
+    margin: 6% 0 2% 0;
+  }
+  p {
+    font-size: var(--fs-body);
+    align-self: center;
+    margin: 2rem 10% 0;
+  }
 }

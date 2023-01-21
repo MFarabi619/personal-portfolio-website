@@ -23,11 +23,11 @@ import bootstrap_logo from "/src/assets/svg/bootstrap_logo.svg";
 function Skills() {
   return (
     <div className="Skills">
-      <h1 className="Title">Skills 🤹‍♂️</h1>
+      <h1>Skills 🤹‍♂️</h1>
 
       <div className="Cards">
         <div className="Tools">
-          <text>Tools⚒️</text>
+          <p>Tools⚒️</p>
           <div className="Images">
             <img src={vscode_logo} className="vscode_logo" alt="" />
             <img src={vim_logo} className="vim_logo" alt="" />
@@ -43,7 +43,7 @@ function Skills() {
           </div>
         </div>
         <div className="Languages">
-          <text>Languages🔡</text>
+          <p>Languages🔡</p>
           <div className="Images">
             <img src={html5_logo} className="html5_logo" alt="" />
             <img src={css_logo} className="css_logo" alt="" />
@@ -57,7 +57,7 @@ function Skills() {
           </div>
         </div>
         <div className="Frameworks">
-          <text>Libraries/Frameworks📚</text>
+          <p>Libraries/Frameworks📚</p>
           <div className="Images">
             <img src={react_logo} className="react_logo" alt="" />
             <img src={bootstrap_logo} className="bootstrap_logo" alt="" />

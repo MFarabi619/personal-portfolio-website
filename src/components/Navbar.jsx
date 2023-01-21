@@ -7,7 +7,6 @@ function Navbar(props) {
   const [toggleIcon, setToggleIcon] = useState("nav_toggler");
 
   const navToggle = () => {
-    console.log("fdasf");
     active === "nav_menu"
       ? setActive("nav_menu nav_active")
       : setActive("nav_menu");
