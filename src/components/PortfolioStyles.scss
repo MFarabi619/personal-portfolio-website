@@ -21,22 +21,7 @@
   .Cards {
     display: grid;
     grid-template-columns: 50% 50%;
-    //   justify-content: space-evenly;
-    // width: 90%;
-    // margin: 0 auto;
-    // max-width: 80rem;
   }
-
-  //   .cols{
-  //     display: flex;
-  //         flex-wrap: wrap;
-  //             justify-content: center;
-  //   }
-
-  //   .col{
-  //     width: calc(25% - 2rem);
-  //     margin: 1rem;
-  // }
 
   .Card {
     transform-style: preserve-3d;
@@ -78,7 +63,7 @@
         color: var(--clr-neon);
 
         .neon-button {
-          font-size: 2.7rem;
+          font-size: 1.5em;
           font-weight: bold;
           display: inline-block;
           cursor: pointer;
@@ -192,15 +177,17 @@
 
   .front {
     .inner {
+      overflow-wrap: break-word;
       p {
-        font-size: 3vw;
+        --fs-cardtitle: max(3vw, 2rem);
+        font-size: var(--fs-cardtitle);
         margin-bottom: 2rem;
         position: relative;
       }
 
       p:after {
         content: "";
-        width: 20rem;
+        width: auto;
         height: 2px;
         position: absolute;
         background: #c6d4df;
@@ -213,28 +200,29 @@
 
       span {
         color: rgba(255, 255, 255, 0.7);
-        font-family: "Montserrat";
+        // font-family: "Montserrat";
         font-weight: 300;
+        font-size: clamp(1rem, 1vw + 1rem, 2rem);
       }
     }
   }
 
-  @media screen and (max-width: 64rem) {
-    .col {
-      width: calc(33.333333% - 2rem);
-    }
-  }
+  //   @media screen and (max-width: 64rem) {
+  //     .col {
+  //       width: calc(33.333333% - 2rem);
+  //     }
+  //   }
 
-  @media screen and (max-width: 48rem) {
-    .col {
-      width: calc(50% - 2rem);
-    }
-  }
+  //   @media screen and (max-width: 48rem) {
+  //     .col {
+  //       width: calc(50% - 2rem);
+  //     }
+  //   }
 
-  @media screen and (max-width: 32rem) {
-    .col {
-      width: 100%;
-      margin: 0 0 2rem 0;
-    }
-  }
+  //   @media screen and (max-width: 32rem) {
+  //     .col {
+  //       width: 100%;
+  //       margin: 0 0 2rem 0;
+  //     }
+  //   }
 }
