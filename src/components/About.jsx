@@ -13,7 +13,8 @@ function About(props) {
         design and providing a seamless user experience.🥳 <br />
         <br /> My passion for learning new technologies and exploring different
         ideas is driven by my curiosity.💡 <br />
-        <br /> Feel free to explore my latest projects through my website!🛖
+        <br /> Feel free to explore my latest projects through my website!🛖 (in
+        development)
       </p>
     </div>
   );
