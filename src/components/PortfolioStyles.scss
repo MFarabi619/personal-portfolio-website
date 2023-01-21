@@ -93,6 +93,7 @@
           position: relative;
 
           &::before {
+            pointer-events: none;
             content: "";
             position: absolute;
             background: var(--clr-neon);
