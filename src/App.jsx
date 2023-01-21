@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact";
 
 function App() {
