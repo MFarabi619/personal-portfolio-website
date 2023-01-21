@@ -116,13 +116,14 @@
             bottom: 0;
             left: 0;
             right: 0;
+            background: var(--clr-neon);
+            z-index: -1;
             box-shadow: 0 0 1em 0.5em var(--clr-neon);
             opacity: 0;
             transition: opacity 100ms linear;
           }
 
           &:hover {
-            background: var(--clr-neon);
             color: var(--clr-bg);
             text-shadow: none;
             &::after {
