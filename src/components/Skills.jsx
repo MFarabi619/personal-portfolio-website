@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skills.scss";
+import "./SkillsStyles.scss";
 
 import vscode_logo from "/src/assets/svg/vscode_logo.svg";
 import vim_logo from "/src/assets/svg/vim_logo.svg";
