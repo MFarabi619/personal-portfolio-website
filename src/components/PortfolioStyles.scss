@@ -92,6 +92,8 @@
             0 0 0.5em 0 var(--clr-neon);
           position: relative;
 
+          transition: background-color 100ms linear;
+
           &::before {
             pointer-events: none;
             content: "";
@@ -107,17 +109,6 @@
             opacity: 0.7;
           }
 
-          &#githubicon {
-            padding: none;
-            font-size: 4rem;
-            align-self: center;
-            border: 0;
-            box-shadow: none;
-            &::before {
-              // transform: perspective(3em) rotateX(40deg) scale(1, 0.35);
-            }
-          }
-
           &::after {
             content: "";
             position: absolute;
@@ -127,6 +118,7 @@
             right: 0;
             box-shadow: 0 0 1em 0.5em var(--clr-neon);
             opacity: 0;
+            transition: opacity 100ms linear;
           }
 
           &:hover {
