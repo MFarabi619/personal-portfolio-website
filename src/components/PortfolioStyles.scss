@@ -118,10 +118,24 @@
             }
           }
 
+          &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            box-shadow: 0 0 1em 0.5em var(--clr-neon);
+            opacity: 0;
+          }
+
           &:hover {
             background: var(--clr-neon);
             color: var(--clr-bg);
             text-shadow: none;
+            &::after {
+              opacity: 1;
+            }
           }
         }
       }
