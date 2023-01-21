@@ -12,11 +12,12 @@ let cardObj = [
     repoUrl: "https://github.com/MFarabi619/javascript-calculator",
   },
   {
-    imageUrl: "url()",
-    title: "",
-    body: "",
-    demoUrl: "",
-    repoUrl: "",
+    imageUrl:
+      "url(https://camo.githubusercontent.com/6912c08778d06e9ef4c16ddd0ae9549ca8b58be6fedd07c9f03f7cecd5933334/68747470733a2f2f692e6962622e636f2f354b3039786a342f53637265656e73686f742d323032332d30312d31322d3233343734392e6a7067)",
+    title: "Key Sounds",
+    body: "A simple web app that generates audio corresponding to keystrokes on a user's keyboard.⌨️",
+    demoUrl: "https://key-sounds.vercel.app/",
+    repoUrl: "https://github.com/MFarabi619/key-sounds",
   },
   {
     imageUrl: "url()",
