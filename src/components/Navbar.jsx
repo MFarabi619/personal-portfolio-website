@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import "./NavbarStyles.scss";
 import logo from "/src/assets/parallax images/Logo1.png";
 
@@ -21,28 +22,59 @@ function Navbar(props) {
       <a href="#" className="nav_logo">
         <img className="logoImage" src={logo} alt="" />
       </a>
-
       <ul className={active}>
         <li className="nav_button">
-          <a href="#" className="nav_link">
+          <Link
+            to="Home"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav_link"
+            onClick={navToggle}
+          >
             Home
-          </a>
+          </Link>
         </li>
 
         <li className="nav_button">
-          <a href="#" className="nav_link">
+          <Link
+            to="About"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav_link"
+            onClick={navToggle}
+          >
             About
-          </a>
+          </Link>
         </li>
         <li className="nav_button">
-          <a href="#" className="nav_link">
+          <Link
+            to="Skills"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav_link"
+            onClick={navToggle}
+          >
             Skills
-          </a>
+          </Link>
         </li>
         <li className="nav_button">
-          <a href="#" className="nav_link">
+          <Link
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav_link"
+            onClick={navToggle}
+          >
             Portfolio
-          </a>
+          </Link>
         </li>
         {/* 
         <li className="nav_button">
@@ -51,9 +83,17 @@ function Navbar(props) {
           </a>
         </li> */}
         <li className="nav_button">
-          <a href="#" className="nav_link">
+          <Link
+            to="Contact "
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav_link"
+            onClick={navToggle}
+          >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
 

@@ -55,6 +55,7 @@ li {
   font-weight: 600;
 
   &:hover {
+    cursor: pointer;
     background: #c0ae54;
     color: aliceblue;
     transition: 0.3s ease-in;
