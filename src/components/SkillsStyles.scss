@@ -67,7 +67,10 @@
   }
 
   .Images {
-    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 30vw;
     background-color: #003329;
     transition: 0.5s ease-in-out;
     border-radius: 20px;
@@ -76,11 +79,6 @@
       transition: 0.7s ease-in-out;
     }
 
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    flex: 1 1 contain;
     img {
       margin: 2rem;
     }
