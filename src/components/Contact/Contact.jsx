@@ -12,15 +12,23 @@ import {
 let iconJSON = [
   {
     faIcon: FaEnvelope,
+    link: "mailto:mumtahin.farabi@gmail.com",
+    color: "",
   },
   {
     faIcon: FaLinkedin,
+    link: "https://www.linkedin.com/in/mfarabi/",
+    color: "#0072b1",
   },
   {
     faIcon: FaGithubSquare,
+    link: "https://github.com/mfarabi619",
+    color: "",
   },
   {
     faIcon: FaTwitterSquare,
+    link: "https://www.youtube.com/watch?v=BBJa32lCaaY",
+    color: "",
   },
 ];
 
@@ -33,7 +41,8 @@ function Contact(props) {
           <Icon
             key={contents.faIcon}
             faIcon={<contents.faIcon />}
-            text={contents.text}
+            link={contents.link}
+            color={contents.color}
           />
         ))}
       </section>

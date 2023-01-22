@@ -4,7 +4,9 @@ import "./IconStyles.scss";
 export default function Icon(props) {
   return (
     <div className="iconContainer">
-      <p>{props.faIcon}</p>
+      <a href={props.link} target="_blank" style={{ color: "{props.color}" }}>
+        {props.faIcon}
+      </a>
     </div>
   );
 }
