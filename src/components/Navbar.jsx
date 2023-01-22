@@ -65,7 +65,7 @@ function Navbar(props) {
         </li>
         <li className="nav_button">
           <Link
-            to="Contact"
+            to="Portfolio"
             spy={true}
             smooth={true}
             offset={50}
