@@ -13,6 +13,15 @@ let iconJSON = [
   {
     faIcon: FaEnvelope,
   },
+  {
+    faIcon: FaLinkedin,
+  },
+  {
+    faIcon: FaGithubSquare,
+  },
+  {
+    faIcon: FaTwitterSquare,
+  },
 ];
 
 function Contact(props) {
