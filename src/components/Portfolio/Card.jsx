@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Card(props) {
   return (
-    <div className="Card" key={props.title}>
+    <div className="Card">
       <div
         className="front"
         style={{

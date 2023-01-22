@@ -50,6 +50,7 @@ function Portfolio(props) {
       <div className="Cards">
         {cardObj.map((contents) => (
           <Card
+            key={props.title}
             imageUrl={contents.imageUrl}
             title={contents.title}
             body={contents.body}
