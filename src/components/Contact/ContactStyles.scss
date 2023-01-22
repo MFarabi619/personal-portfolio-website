@@ -13,14 +13,4 @@
     margin: 4% 0 3% 0;
     align-self: center;
   }
-  .icons {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    a {
-      text-decoration: none;
-      font-size: clamp(5rem, 5rem + 1vw, 8rem);
-    }
-  }
 }

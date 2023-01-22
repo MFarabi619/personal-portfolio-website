@@ -1,6 +1,7 @@
 .Skills {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 2rem;
   background: #003329;
   color: white;
@@ -11,14 +12,14 @@
   h1 {
     font-size: var(--fs-title);
     margin: 4% 0 3% 0;
-    align-self: center;
+    // align-self: center;
   }
 
   .Cards {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 0 10.5% 0 0;
 
     font-size: var(--fs-subtitle);
     p {
@@ -66,6 +67,7 @@
   }
 
   .Images {
+    width: 30vw;
     background-color: #003329;
     transition: 0.5s ease-in-out;
     border-radius: 20px;
@@ -77,17 +79,16 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    max-height: 80vh;
-    max-width: 50vh;
+
+    flex: 1 1 contain;
     img {
       margin: 2rem;
     }
   }
 }
 
-@media only screen and (max-width: 1868px) {
-  //This doesn't work🤷‍♂️
-  .Cards {
-    margin: 0 0 0 0;
-  }
-}
+// @media only screen and (max-width: 768px) {
+//   .Images {
+//     width: 50vw;
+//   }
+// }

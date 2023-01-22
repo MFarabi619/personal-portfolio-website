@@ -40,7 +40,8 @@
       .neon-button {
         font-size: 1.5em;
         font-weight: bold;
-        display: inline-block;
+        display: flex;
+        align-items: center;
         cursor: pointer;
         text-decoration: none;
         color: var(--clr-neon);

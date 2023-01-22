@@ -4,7 +4,7 @@ import Parallax from "./components/Parallax";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (

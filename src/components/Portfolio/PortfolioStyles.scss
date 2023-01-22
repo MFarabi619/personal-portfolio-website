@@ -19,9 +19,10 @@
   }
 
   .Cards {
-    margin: 4%;
     display: grid;
+    justify-content: center;
     grid-template-columns: 50% 50%;
+    margin: 0 7rem 0;
     gap: 4%;
   }
 }
