@@ -12,9 +12,9 @@ import nightSky from "/src/assets/parallax images/nightSky.jpg";
 import dawnSky from "/src/assets/parallax images/dawnSky.webp";
 
 function Parallax(props) {
-  const [scrollPos, setScrollPos] = useState(0);
+  const [scrollpos, setScrollpos] = useState(0);
   const handleScroll = () => {
-    setScrollPos(window.scrollY);
+    setScrollpos(window.scrollY);
   };
 
   useEffect(() => {
@@ -33,14 +33,14 @@ function Parallax(props) {
           src={hill1}
           id="hill1"
           style={{
-            top: scrollPos < 120 ? scrollPos * 0.5 : 60,
+            top: scrollpos < 120 ? scrollpos * 0.5 : 60,
           }}
         />
 
         <img src={hill2} id="hill2" />
         <img src={hill3} id="hill3" />
-        <img src={hill4} style={{ left: scrollPos * -1.5 }} id="hill4" />
-        <img src={hill5} style={{ left: scrollPos * 1.5 }} id="hill5" />
+        <img src={hill4} style={{ left: scrollpos * -1.5 }} id="hill4" />
+        <img src={hill5} style={{ left: scrollpos * 1.5 }} id="hill5" />
         <img src={tree} id="tree" />
         <div className="Text">
           <h5 className="Hello">Hello, I am</h5>
@@ -48,9 +48,9 @@ function Parallax(props) {
         </div>
         <img
           src={leaf}
-          style={{ top: scrollPos * -1.5, left: scrollPos * 1.5 }}
+          style={{ top: scrollpos * -1.5, left: scrollpos * 1.5 }}
           id="leaf"
-          scrollPos
+          scrollpos
         />
         <img src={plant} id="plant" />
       </header>
