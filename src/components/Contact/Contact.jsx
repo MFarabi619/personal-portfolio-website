@@ -13,7 +13,7 @@ let iconJSON = [
   {
     faIcon: FaEnvelope,
     link: "mailto:mumtahin.farabi@gmail.com",
-    color: "",
+    color: "#EA4335",
   },
   {
     faIcon: FaLinkedin,
@@ -23,12 +23,12 @@ let iconJSON = [
   {
     faIcon: FaGithubSquare,
     link: "https://github.com/mfarabi619",
-    color: "",
+    color: "black",
   },
   {
     faIcon: FaTwitterSquare,
     link: "https://www.youtube.com/watch?v=BBJa32lCaaY",
-    color: "",
+    color: "#1dcaff",
   },
 ];
 
