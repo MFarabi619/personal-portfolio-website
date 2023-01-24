@@ -155,7 +155,7 @@
   .inner {
     overflow-wrap: break-word;
     p {
-      --fs-cardtitle: max(3vw, 2rem);
+      --fs-cardtitle: max(3vw, 1.6rem);
       font-size: var(--fs-cardtitle);
       margin-bottom: 2rem;
       position: relative;
@@ -176,28 +176,8 @@
 
     span {
       color: rgba(255, 255, 255, 0.7);
-      // font-family: "Montserrat";
       font-weight: 300;
-      font-size: clamp(1rem, 1vw + 1rem, 2rem);
+      font-size: clamp(0.7rem, 1vw + 1rem, 2rem);
     }
   }
 }
-
-//   @media screen and (max-width: 64rem) {
-//     .col {
-//       width: calc(33.333333% - 2rem);
-//     }
-//   }
-
-//   @media screen and (max-width: 48rem) {
-//     .col {
-//       width: calc(50% - 2rem);
-//     }
-//   }
-
-//   @media screen and (max-width: 32rem) {
-//     .col {
-//       width: 100%;
-//       margin: 0 0 2rem 0;
-//     }
-//   }
