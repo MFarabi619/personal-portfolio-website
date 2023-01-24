@@ -27,7 +27,7 @@ function Skills() {
 
       <div className="Cards">
         <div className="Tools">
-          <p>Tools⚒️</p>
+          <p>Tools ⚒️</p>
           <div className="Images">
             <img src={vscode_logo} className="vscode_logo" alt="" />
             <img src={vim_logo} className="vim_logo" alt="" />
@@ -43,7 +43,7 @@ function Skills() {
           </div>
         </div>
         <div className="Languages">
-          <p>Languages🔡</p>
+          <p>Languages 🔡</p>
           <div className="Images">
             <img src={html5_logo} className="html5_logo" alt="" />
             <img src={css_logo} className="css_logo" alt="" />
@@ -57,7 +57,7 @@ function Skills() {
           </div>
         </div>
         <div className="Frameworks">
-          <p>Libraries/Frameworks📚</p>
+          <p>Libraries/Frameworks 📚</p>
           <div className="Images">
             <img src={react_logo} className="react_logo" alt="" />
             <img src={bootstrap_logo} className="bootstrap_logo" alt="" />

@@ -35,7 +35,7 @@ let iconJSON = [
 function Contact(props) {
   return (
     <div className="Contact">
-      <h1>Contact☎️</h1>
+      <h1>Contact ☎️</h1>
       <section className="icons">
         {iconJSON.map((contents) => (
           <Icon

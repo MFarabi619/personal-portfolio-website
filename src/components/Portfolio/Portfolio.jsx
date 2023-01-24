@@ -46,7 +46,7 @@ let cardObj = [
 function Portfolio(props) {
   return (
     <div className="Portfolio">
-      <h1 className="Title">Portfolio💼</h1>
+      <h1 className="Title">Portfolio 💼</h1>
       <div className="Cards">
         {cardObj.map((contents) => (
           <Card
