@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "./NavbarStyles.scss";
-import logo from "/src/assets/parallax images/Logo1.png";
+import logo from "/src/assets/Logo1.png";
 
 function Navbar(props) {
   const [active, setActive] = useState("nav_menu");
