@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaGithubSquare,
   FaTwitterSquare,
+  FaYoutube,
 } from "react-icons/fa";
 
 let iconJSON = [
@@ -24,6 +25,11 @@ let iconJSON = [
     faIcon: FaGithubSquare,
     link: "https://github.com/mfarabi619",
     color: "black",
+  },
+  {
+    faIcon: FaYoutube,
+    link: "https://www.youtube.com/@mumtahinfarabi7502/videos",
+    color: "#FF0000",
   },
   {
     faIcon: FaTwitterSquare,
