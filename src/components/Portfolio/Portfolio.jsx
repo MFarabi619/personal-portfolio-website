@@ -4,7 +4,7 @@ import Card from "./Card";
 
 let cardObj = [
   {
-imageUrl: "url()",
+imageUrl: "url(https://github.com/MFarabi619/pomodoro-clock/raw/main/src/assets/Project%20image.png?raw=true)",
  title: "Pomodoro Clock",   
 body: "An aesthetic-looking, responsive, and fully functional pomodoro timer for deep, focused productivity.⌛",
 demoUrl: "https://pomodoro-clock-mfarabi.vercel.app/",
