@@ -4,6 +4,13 @@ import Card from "./Card";
 
 let cardObj = [
   {
+imageUrl: "url()",
+ title: "Pomodoro Clock",   
+body: "An aesthetic-looking, responsive, and fully functional pomodoro timer for deep, focused productivity.⌛",
+demoUrl: "https://pomodoro-clock-mfarabi.vercel.app/",
+ repoUrl: "https://github.com/MFarabi619/pomodoro-clock",  
+  },
+  {
     imageUrl: "url(https://i.ibb.co/M9g3yww/Picture1.png)",
     title: "Javascript Calculator",
     body: "A simple, aesthetic-looking calculator written in plain HTML, CSS, and JavaScript.📱",
