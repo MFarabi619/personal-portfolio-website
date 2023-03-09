@@ -46,8 +46,8 @@ demoUrl: "https://mfarabi-pomodoro-clock.vercel.app/",
     imageUrl: "url()",
     title: "More projects coming soon!",
     body: "👨‍💻",
-    demoUrl: "",
-    repoUrl: "",
+    demoUrl: "https://www.youtube.com/watch?v=BBJa32lCaaY",
+    repoUrl: "https://www.youtube.com/watch?v=BBJa32lCaaY",
 }
 
   // {
