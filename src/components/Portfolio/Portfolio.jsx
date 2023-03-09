@@ -41,6 +41,15 @@ demoUrl: "https://pomodoro-clock-mfarabi.vercel.app/",
     demoUrl: "https://mfarabi619.github.io/random-quote-machine/",
     repoUrl: "https://github.com/MFarabi619/random-quote-machine",
   },
+
+  {
+    imageUrl: "url()",
+    title: "More projects coming soon!",
+    body: "👨‍💻",
+    demoUrl: "",
+    repoUrl: "",
+}
+
   // {
   //   imageUrl: "url()",
   //   title: "",
