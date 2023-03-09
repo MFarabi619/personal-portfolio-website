@@ -7,7 +7,7 @@ let cardObj = [
 imageUrl: "url(https://github.com/MFarabi619/pomodoro-clock/raw/main/src/assets/Project%20image.png?raw=true)",
  title: "Pomodoro Clock",   
 body: "An aesthetic-looking, responsive, and fully functional pomodoro timer for deep, focused productivity.⌛",
-demoUrl: "https://pomodoro-clock-mfarabi.vercel.app/",
+demoUrl: "https://mfarabi-pomodoro-clock.vercel.app/",
  repoUrl: "https://github.com/MFarabi619/pomodoro-clock",  
   },
   {
