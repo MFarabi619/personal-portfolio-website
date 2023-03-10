@@ -1,6 +1,7 @@
 :root{
   --fs-cardtitle: max(3vw, 1.6rem);
   --fs-cardtext: max(1.5vw, 1rem);
+  --fs-buttontext: 1.55vw;
   --clr-neon: rgb(231, 255, 20);
   --clr-bg: hsl(323 21% 16%);
 }
@@ -140,7 +141,7 @@
   height: auto;
   border-radius: 10px;
   color: #fff;
-  font-size: 1.55vw;
+  font-size: var(--fs-buttontext);
 }
 
 .inner {
@@ -190,11 +191,13 @@
   :root{
     --fs-cardtitle: 5vw;
     --fs-cardtext: 2.7vw;
+    --fs-buttontext: 3vw
   }
 }
   @media screen and (max-width: 450px) {
   :root{
     --fs-cardtitle: 8vw;
     --fs-cardtext: 4vw;
+    --fs-buttontext: 3.5vw
   }
 }
