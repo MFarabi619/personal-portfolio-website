@@ -18,21 +18,6 @@ function Navbar(props) {
       : setToggleIcon("nav_toggler");
   };
 
-  const handleScroll = () => {
-    if (window.scrollY > 1) {
-      setActive("nav_menu");
-      setToggleIcon("nav_toggler");
-    }
-    
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
 
   return (
     <nav className="nav">
