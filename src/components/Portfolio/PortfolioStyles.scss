@@ -3,6 +3,7 @@
 }
 
 .Portfolio {
+  border: 2px solid yellow;
   --fs-title: clamp(2rem, 8vw, 4rem);
 
   display: flex;
@@ -11,19 +12,26 @@
   padding: 2rem;
   background: #003329;
   color: white;
-
+  height: auto;
+  // overflow: auto;
+  // overflow: hidden;
+  
   .Title {
     font-size: var(--fs-title);
     margin: 6% 0 3% 0;
     align-self: center;
   }
-
+  
   .Cards {
-
+    border: 2px solid red;
+    // display: flex;
     display: grid;
-    justify-content: center;
-    grid-template-columns: 50% 50%;
+    // justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    // flex-direction: column;
     margin: 0 5vw 0;
     gap: 4%;
+    // height: auto;
+    
   }
 }

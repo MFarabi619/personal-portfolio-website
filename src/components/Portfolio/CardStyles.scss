@@ -1,3 +1,10 @@
+:root{
+  --fs-cardtitle: max(3vw, 1.6rem);
+  --fs-cardtext: max(1.5vw, 1rem);
+  --clr-neon: rgb(231, 255, 20);
+  --clr-bg: hsl(323 21% 16%);
+}
+
 .Card {
   transform-style: preserve-3d;
   perspective: 1000px;
@@ -29,8 +36,6 @@
     transform-style: preserve-3d;
 
     .buttons {
-      --clr-neon: rgb(231, 255, 20);
-      --clr-bg: hsl(323 21% 16%);
 
       display: flex;
       justify-content: center;
@@ -155,7 +160,6 @@
   .inner {
     overflow-wrap: break-word;
     p {
-      --fs-cardtitle: max(3vw, 1.6rem);
       font-size: var(--fs-cardtitle);
       margin-bottom: 2rem;
       position: relative;
@@ -177,7 +181,7 @@
     span {
       color: rgba(255, 255, 255, 0.7);
       font-weight: 300;
-      font-size: clamp(0.7rem, 1vw + 1rem, 2rem);
+      font-size: var(--fs-cardtext);
     }
   }
 }
