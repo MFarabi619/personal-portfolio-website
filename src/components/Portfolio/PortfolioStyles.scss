@@ -28,3 +28,11 @@
   }
 }
 
+@media screen and (max-width: 960px) {
+  .Portfolio {
+    .Cards {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
