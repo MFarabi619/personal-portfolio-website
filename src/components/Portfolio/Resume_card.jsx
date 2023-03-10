@@ -18,7 +18,7 @@ export default function Card(props) {
       <div className="back">
         <div className="inner">
           <div className="buttons">
-            <a href={props.demoUrl} className="neon-button" target="_blank">
+            <a href={'https://drive.google.com/file/d/1VOayYkYtLicCsfUGZcg5z9GoVQwZRPrn/view?usp=share_link'} className="neon-button" target="_blank">
               View Resume 
             </a>
           </div>
