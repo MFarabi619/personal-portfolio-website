@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Link } from "react-scroll";
 import "./NavbarStyles.scss";
 import logo from "/src/assets/Logo1.png";
@@ -9,13 +9,30 @@ function Navbar(props) {
 
   const navToggle = () => {
     active === "nav_menu"
-      ? setActive("nav_menu nav_active")
-      : setActive("nav_menu");
-
+    ? setActive("nav_menu nav_active")
+    : setActive("nav_menu");
+    console.log(active);
+    
     toggleIcon === "nav_toggler"
       ? setToggleIcon("nav_toggler toggle")
       : setToggleIcon("nav_toggler");
   };
+
+  const handleScroll = () => {
+    if (window.scrollY > 1) {
+      setActive("nav_menu");
+      setToggleIcon("nav_toggler");
+    }
+    
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
 
   return (
     <nav className="nav">
