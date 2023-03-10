@@ -185,3 +185,16 @@
     }
   }
 }
+
+@media screen and (max-width: 960px) {
+  :root{
+    --fs-cardtitle: 5vw;
+    --fs-cardtext: 2.7vw;
+  }
+}
+  @media screen and (max-width: 450px) {
+  :root{
+    --fs-cardtitle: 8vw;
+    --fs-cardtext: 4vw;
+  }
+}
