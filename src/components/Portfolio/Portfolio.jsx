@@ -2,7 +2,6 @@ import React from "react";
 import "./PortfolioStyles.scss";
 import Card from "./Card";
 import Resume_card from "./Resume_card";
-import Resume_image from "./assets/Resume_image.png?raw=true"
 
 
 let cardObj = [
@@ -71,7 +70,7 @@ function Portfolio(props) {
       <div className="Cards">
         <Resume_card 
           key={'LateX Resume'}
-          imageUrl={Resume_image}
+          imageUrl={'url("https://github.com/MFarabi619/personal-portfolio-website/blob/main/src/assets/Resume_image.png?raw=true")'}
           title={'LateX Resume'}
           body={'A well-designed resume that demonstrates attention to detail, customizability, and professional presentation. 📄'}
         />
