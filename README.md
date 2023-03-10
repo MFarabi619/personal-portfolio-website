@@ -15,3 +15,5 @@ Learning log:
 - Having margins is important.
 - Look to reduce code by using react components and passing props into them.
 - Due to the creation of components, the number of files began to grow quickly. Organized them into folders.
+- Setting global CSS variables
+- Setting grid-gap to a % value can cause container overflow. Fixed by using 'em'.
