@@ -1,6 +1,5 @@
 import React from "react";
 import "./CardStyles.scss";
-import { FaGithub } from "react-icons/fa";
 
 export default function Card(props) {
   return (
