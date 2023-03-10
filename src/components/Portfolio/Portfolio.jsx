@@ -1,6 +1,9 @@
 import React from "react";
 import "./PortfolioStyles.scss";
 import Card from "./Card";
+import Resume_card from "./Resume_card";
+import Resume_image from "./assets/Resume_image.png?raw=true"
+
 
 let cardObj = [
   {
@@ -59,11 +62,19 @@ demoUrl: "https://mfarabi-pomodoro-clock.vercel.app/",
   // },
 ];
 
+
+
 function Portfolio(props) {
   return (
     <div className="Portfolio">
       <h1 className="Title">Portfolio 💼</h1>
       <div className="Cards">
+        <Resume_card 
+          key={'LateX Resume'}
+          imageUrl={Resume_image}
+          title={'LateX Resume'}
+          body={'A well-designed resume that demonstrates attention to detail, customizability, and professional presentation. 📄'}
+        />
         {cardObj.map((contents) => (
           <Card
             key={props.title}

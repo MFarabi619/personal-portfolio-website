@@ -20,16 +20,7 @@ export default function Card(props) {
         <div className="inner">
           <div className="buttons">
             <a href={props.demoUrl} className="neon-button" target="_blank">
-              Live Demo
-            </a>
-
-            <a
-              href={props.repoUrl}
-              className="neon-button"
-              id="githubicon"
-              target="_blank"
-            >
-              <FaGithub />
+              View Resume 
             </a>
           </div>
         </div>
