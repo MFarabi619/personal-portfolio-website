@@ -70,7 +70,7 @@ function Portfolio(props) {
       <div className="Cards">
         <Resume_card 
           key={'LateX Resume'}
-          imageUrl={'url("https://github.com/MFarabi619/personal-portfolio-website/blob/main/src/assets/Resume_image.png?raw=true")'}
+          imageUrl={'url("https://github.com/MFarabi619/personal-portfolio-website/blob/main/src/assets/Resume_image.jpg?raw=true")'}
           title={'LateX Resume'}
           body={'A well-designed resume that demonstrates attention to detail, customizability, and professional presentation. 📄'}
         />
