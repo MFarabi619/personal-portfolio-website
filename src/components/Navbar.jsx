@@ -11,7 +11,6 @@ function Navbar(props) {
     active === "nav_menu"
     ? setActive("nav_menu nav_active")
     : setActive("nav_menu");
-    console.log(active);
     
     toggleIcon === "nav_toggler"
       ? setToggleIcon("nav_toggler toggle")
