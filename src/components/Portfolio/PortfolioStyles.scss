@@ -12,10 +12,7 @@
   padding: 2rem;
   background: #003329;
   color: white;
-  height: auto;
-  // overflow: auto;
-  // overflow: hidden;
-  
+
   .Title {
     font-size: var(--fs-title);
     margin: 6% 0 3% 0;
@@ -24,14 +21,9 @@
   
   .Cards {
     border: 2px solid red;
-    // display: flex;
     display: grid;
-    // justify-content: center;
+    gap: 4em;
     grid-template-columns: 1fr 1fr;
-    // flex-direction: column;
     margin: 0 5vw 0;
-    gap: 4%;
-    // height: auto;
-    
   }
 }
