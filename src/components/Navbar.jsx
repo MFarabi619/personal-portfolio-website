@@ -26,10 +26,10 @@ function Navbar(props) {
       <ul className={active}>
         <li className="nav_button">
           <Link
-            to="Home"
+            to="parallax"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
             className="nav_link"
             onClick={navToggle}
