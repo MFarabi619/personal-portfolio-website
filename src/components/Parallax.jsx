@@ -68,7 +68,7 @@ function Parallax(props) {
           id="leaf"
           scrollpos
         />
-        <img src={plant} id="plant" />
+        <img src={plant} alt="Image of plant" id="plant" />
       </header>
     </div>
   );
