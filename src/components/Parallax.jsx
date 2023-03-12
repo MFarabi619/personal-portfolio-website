@@ -63,6 +63,7 @@ function Parallax(props) {
         </div>
         <img
           src={leaf}
+          alt="Image of leaf"
           style={{ top: scrollpos * -1.5, left: scrollpos * 1.5 }}
           id="leaf"
           scrollpos
