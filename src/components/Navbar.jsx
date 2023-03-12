@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "./NavbarStyles.scss";
 import logo from "/src/assets/Logo1.png";
@@ -9,14 +9,13 @@ function Navbar(props) {
 
   const navToggle = () => {
     active === "nav_menu"
-    ? setActive("nav_menu nav_active")
-    : setActive("nav_menu");
-    
+      ? setActive("nav_menu nav_active")
+      : setActive("nav_menu");
+
     toggleIcon === "nav_toggler"
       ? setToggleIcon("nav_toggler toggle")
       : setToggleIcon("nav_toggler");
   };
-
 
   return (
     <nav className="nav">
@@ -43,7 +42,7 @@ function Navbar(props) {
             to="About"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
             className="nav_link"
             onClick={navToggle}
@@ -56,7 +55,7 @@ function Navbar(props) {
             to="Skills"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
             className="nav_link"
             onClick={navToggle}
@@ -69,7 +68,7 @@ function Navbar(props) {
             to="Portfolio"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
             className="nav_link"
             onClick={navToggle}
@@ -88,7 +87,7 @@ function Navbar(props) {
             to="Contact "
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
             className="nav_link"
             onClick={navToggle}
