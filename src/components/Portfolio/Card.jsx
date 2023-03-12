@@ -4,11 +4,12 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Card(props) {
   return (
-    <div className="Card">
+    <div
+      className="Card">
       <div
         className="front"
         style={{
-          backgroundImage: props.imageUrl,
+          backgroundImage: props.imageUrl 
         }}
       >
         <div className="inner">

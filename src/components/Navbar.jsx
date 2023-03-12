@@ -32,6 +32,7 @@ function Navbar(props) {
             duration={500}
             className="nav_link"
             onClick={navToggle}
+            href="#"
           >
             Home
           </Link>
@@ -46,6 +47,8 @@ function Navbar(props) {
             duration={500}
             className="nav_link"
             onClick={navToggle}
+
+            href="#"
           >
             About
           </Link>
@@ -59,6 +62,7 @@ function Navbar(props) {
             duration={500}
             className="nav_link"
             onClick={navToggle}
+            href="#"
           >
             Skills
           </Link>
@@ -72,6 +76,7 @@ function Navbar(props) {
             duration={500}
             className="nav_link"
             onClick={navToggle}
+            href="#"
           >
             Portfolio
           </Link>
@@ -91,6 +96,7 @@ function Navbar(props) {
             duration={500}
             className="nav_link"
             onClick={navToggle}
+            href="#"
           >
             Contact
           </Link>
