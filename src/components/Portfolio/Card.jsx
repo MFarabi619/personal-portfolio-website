@@ -19,7 +19,12 @@ export default function Card(props) {
       <div className="back">
         <div className="inner">
           <div className="buttons">
-            <a aria-label="Live Demo Button" href={props.demoUrl} className="neon-button" target="_blank">
+            <a
+              aria-label="Live Demo Button"
+              href={props.demoUrl}
+              className="neon-button"
+              target="_blank"
+            >
               Live Demo
             </a>
 
