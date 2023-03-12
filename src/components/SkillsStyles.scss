@@ -8,14 +8,15 @@
 
   --fs-title: clamp(2rem, 8vw, 4rem);
   --fs-subtitle: clamp(1rem, 6vw, 2rem);
-
+  
   h1 {
     font-size: var(--fs-title);
     margin: 4% 0 3% 0;
     // align-self: center;
   }
-
+  
   .Cards {
+    gap: .5rem;
     width: 100%;
     display: flex;
     justify-content: center;
