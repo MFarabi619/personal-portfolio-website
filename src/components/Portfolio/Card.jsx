@@ -27,7 +27,7 @@ export default function Card(props) {
               aria-label="Github Icon Button"
               href={props.repoUrl}
               className="neon-button"
-              id="githubicon"
+              id={"githubicon" + props.title}
               target="_blank"
             >
               <FaGithub />
