@@ -56,7 +56,7 @@ function Parallax(props) {
           style={{ left: scrollpos * 1.5 }}
           id="hill5"
         />
-        <img src={tree} id="tree" />
+        <img src={tree} alt="Image of tree" id="tree" />
         <div className="Text">
           <h5 className="Hello">Hello, I am</h5>
           <h2 className="Name">Mumtahin Farabi</h2>
