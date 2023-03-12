@@ -19,7 +19,7 @@ function Navbar(props) {
 
   return (
     <nav className="nav">
-      <a href="#" className="nav_logo">
+      <a href="#" className="nav_logo" aria-label="Navbar Logo">
         <img className="logoImage" src={logo} alt="" />
       </a>
       <ul className={active}>

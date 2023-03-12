@@ -19,11 +19,12 @@ export default function Card(props) {
       <div className="back">
         <div className="inner">
           <div className="buttons">
-            <a href={props.demoUrl} className="neon-button" target="_blank">
+            <a aria-label="Live Demo Button" href={props.demoUrl} className="neon-button" target="_blank">
               Live Demo
             </a>
 
             <a
+              aria-label="Github Icon Button"
               href={props.repoUrl}
               className="neon-button"
               id="githubicon"
