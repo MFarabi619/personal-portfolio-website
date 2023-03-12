@@ -1,28 +1,22 @@
-App{
+App {
 }
 
 /* Firefox */
 * {
-    scrollbar-width: 16px;
-    scrollbar-color: #eeff00 #003329;
-    /* Chrome, Edge, and Safari */
-}
-
-*::-webkit-scrollbar {
-  width: 6px;
-}
-
-  *::-webkit-scrollbar-track {
+  scrollbar-width: 16px;
+  scrollbar-color: #eeff00 #003329;
+  /* Chrome, Edge, and Safari */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
     // -webkit-box-shadow: inset 0 0 10px #eeff00;
     background: #003329;
   }
 
-  *::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background-color: #dac50a;
     border-radius: 9px;
     // border: 2px solid #ffef62;
   }
-
-
-
-
+}
