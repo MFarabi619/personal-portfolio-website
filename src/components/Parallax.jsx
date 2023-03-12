@@ -13,6 +13,7 @@ import dawnSky from "/src/assets/parallax images/dawnSky.webp";
 
 function Parallax(props) {
   const [scrollpos, setScrollpos] = useState(0);
+
   const handleScroll = () => {
     setScrollpos(window.scrollY);
   };
@@ -66,7 +67,6 @@ function Parallax(props) {
           alt="Image of leaf"
           style={{ top: scrollpos * -1.5, left: scrollpos * 1.5 }}
           id="leaf"
-          scrollpos
         />
         <img src={plant} alt="Image of plant" id="plant" />
       </header>
