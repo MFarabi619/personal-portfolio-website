@@ -27,10 +27,15 @@ function Parallax(props) {
   return (
     <div className="parallax">
       <header>
-        <img src={nightSky} alt="Picture of night sky with stars,moon, and a hot air balloon" id="nightSky" />
+        <img
+          src={nightSky}
+          alt="Picture of night sky with stars,moon, and a hot air balloon"
+          id="nightSky"
+        />
         {/* <img src={dawnSky} id="dawnSky" /> */}
         <img
           src={hill1}
+          alt="Picture of hill with trees"
           id="hill1"
           style={{
             top: scrollpos < 120 ? scrollpos * 0.5 : 60,
