@@ -16,5 +16,5 @@ Learning log:
 - Look to reduce code by using react components and passing props into them.
 - Due to the creation of components, the number of files began to grow quickly. Organized them into folders.
 - Using the 'react-scroll' library to enable user navigation to sections of the page by clicking on navbar buttons.
-- Setting global CSS variables
+- Setting global CSS variables.
 - Setting grid-gap to a % value can cause container overflow. Fixed by using 'em'.
