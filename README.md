@@ -18,3 +18,5 @@ Learning log:
 - Using the 'react-scroll' library to enable user navigation to sections of the page by clicking on navbar buttons.
 - Setting global CSS variables.
 - Setting grid-gap to a % value can cause container overflow. Fixed by using 'em'.
+- Using Lighthouse to test for performance metrics.
+- Customizing scrollbar.
