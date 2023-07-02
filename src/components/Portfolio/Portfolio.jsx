@@ -6,11 +6,18 @@ import Resume_card from "./Resume_card";
 
 let cardObj = [
   {
-imageUrl: "url(https://github.com/MFarabi619/pomodoro-clock/raw/main/src/assets/Project%20image.png?raw=true)",
- title: "Pomodoro Clock",   
-body: "An aesthetic-looking, responsive, and fully functional pomodoro timer for deep, focused productivity.⌛",
-demoUrl: "https://mfarabi-pomodoro-clock.vercel.app/",
- repoUrl: "https://github.com/MFarabi619/pomodoro-clock",  
+    imageUrl: "url(https://github.com/MFarabi619/Workday-Time-Entry-Script/blob/main/Project%20demo%20screenshot.png?raw=true)",
+    title: "Automated Time Entry",
+    body: "A Python script that automates the process of entering weekly work hours into the Workday employee portal.🤖",
+    demoUrl: "https://user-images.githubusercontent.com/54924158/250400336-502a9e33-e1c0-4037-a63c-a4df73d4214e.mp4",
+    repoUrl: "https://github.com/MFarabi619/Workday-Time-Entry-Script/tree/main",
+  },
+  {
+    imageUrl: "url(https://github.com/MFarabi619/pomodoro-clock/raw/main/src/assets/Project%20image.png?raw=true)",
+    title: "Pomodoro Clock",   
+    body: "An aesthetic-looking, responsive, and fully functional pomodoro timer for deep, focused productivity.⌛",
+    demoUrl: "https://mfarabi-pomodoro-clock.vercel.app/",
+    repoUrl: "https://github.com/MFarabi619/pomodoro-clock",  
 },
 {
   imageUrl: "url(https://i.ibb.co/M9g3yww/Picture1.png)",
@@ -42,7 +49,7 @@ demoUrl: "https://mfarabi-pomodoro-clock.vercel.app/",
   body: "A static website for displaying random quotes.",
   demoUrl: "https://mfarabi619.github.io/random-quote-machine/",
   repoUrl: "https://github.com/MFarabi619/random-quote-machine",
-},
+  },
 {
   imageUrl: "url()",
   title: "More projects coming soon!",
