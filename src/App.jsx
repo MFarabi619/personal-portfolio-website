@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Parallax />
-      <About />
       <Skills />
       <Portfolio />
+      <About />
       <Contact />
     </div>
   );
