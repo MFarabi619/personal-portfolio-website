@@ -1,0 +1,14 @@
+.email-signature {
+  color: #3b393b;
+  font-size: 13px;
+  font-family: "Poppins";
+}
+.email-signature a {
+  color: #3b393b;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.email-signature #icons a img {
+  height: 18px;
+  margin-right: 8px;
+}/*# sourceMappingURL=styles.css.map */
