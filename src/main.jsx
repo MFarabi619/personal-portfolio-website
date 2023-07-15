@@ -9,9 +9,14 @@ import {
   RouterProvider,
 } from "react-router-dom"
 
-const router = createBrowserRouter([{
-  path: "/",
-  element: <Root />,
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+  },
+  {
+  path: "/home",
+  element: <CusecEmailSignature/>,
 },
   {
     path: "/cusec_2024_email_signature",
