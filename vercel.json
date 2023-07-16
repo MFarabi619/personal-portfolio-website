@@ -1,5 +1,5 @@
 {
   "rewrites":  [
-    {"source": "/home", "destination": "mfarabi.vercel.app/home"}
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
