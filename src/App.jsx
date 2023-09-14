@@ -1,6 +1,7 @@
 import "./App.scss";
 import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
+import Note from "./components/Note";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Parallax />
+      <Note />
       <Skills />
       <Portfolio />
       <About />
