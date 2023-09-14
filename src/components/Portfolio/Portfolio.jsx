@@ -6,6 +6,13 @@ import Resume_card from "./Resume_card";
 
 let cardObj = [
   {
+    imageUrl: "url(https://github.com/cusec/2024/assets/54924158/e3b8aad0-e604-43da-b7f3-8a68b27ee0ff)",
+    title: "CUSEC 2024 Website",
+    body: "2024 edition of the largest student-run software engineering conference in Canada. (In development)",
+    demoUrl: "https://2024-cusec-dev.vercel.app/",
+    repoUrl: "https://github.com/cusec/2024",
+  },
+  {
     imageUrl: "url(https://github.com/MFarabi619/Workday-Time-Entry-Script/blob/main/Project%20demo%20screenshot.png?raw=true)",
     title: "Automated Time Entry",
     body: "A Python script that automates the process of entering weekly work hours into the Workday employee portal.🤖",
@@ -19,13 +26,7 @@ let cardObj = [
     demoUrl: "https://mfarabi-pomodoro-clock.vercel.app/",
     repoUrl: "https://github.com/MFarabi619/pomodoro-clock",  
 },
-{
-  imageUrl: "url(https://i.ibb.co/M9g3yww/Picture1.png)",
-  title: "Javascript Calculator",
-  body: "A simple, aesthetic-looking calculator written in plain HTML, CSS, and JavaScript.📱",
-  demoUrl: "https://javascript-calculator-mfarabi.vercel.app/",
-  repoUrl: "https://github.com/MFarabi619/javascript-calculator",
-},
+
 {
   imageUrl:
     "url(https://github.com/MFarabi619/key-sounds/raw/main/Screenshot%202023-02-01%20052102.jpg?raw=true)",
@@ -50,6 +51,13 @@ let cardObj = [
   demoUrl: "https://mfarabi619.github.io/random-quote-machine/",
   repoUrl: "https://github.com/MFarabi619/random-quote-machine",
   },
+  {
+  imageUrl: "url(https://i.ibb.co/M9g3yww/Picture1.png)",
+  title: "Javascript Calculator",
+  body: "A simple, aesthetic-looking calculator written in plain HTML, CSS, and JavaScript.📱",
+  demoUrl: "https://javascript-calculator-mfarabi.vercel.app/",
+  repoUrl: "https://github.com/MFarabi619/javascript-calculator",
+},
 {
   imageUrl: "url()",
   title: "More projects coming soon!",

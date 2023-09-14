@@ -15,6 +15,8 @@ function Navbar(props) {
     toggleIcon === "nav_toggler"
       ? setToggleIcon("nav_toggler toggle")
       : setToggleIcon("nav_toggler");
+    console.log("Active: ", active);
+    console.log("ToggleIcon: ", toggleIcon);
   };
 
   return (
@@ -102,7 +104,8 @@ function Navbar(props) {
           </Link>
         </li>
       </ul>
-
+      
+      {/* Hamburger Icon */}
       <div onClick={navToggle} className={toggleIcon}>
         <div className="line1"></div>
         <div className="line2"></div>
