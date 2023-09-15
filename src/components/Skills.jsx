@@ -36,43 +36,7 @@ function Skills() {
   return (
     <div className="Skills">
       <h1>Skills 🤹‍♂️</h1>
-
       <div className="Cards">
-        <div className="Tools">
-          <p>Tools ⚒️</p>
-          <div className="Images">
-            <img
-              src={
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
-              }
-              className="git_logo"
-              alt="Git Logo"
-            />
-            <img src={linux_logo} className="linux_logo" alt="Linux Logo" />
-            <img src={ubuntu_logo} className="ubuntu_logo" alt="Ubuntu Logo" />
-            <img src={vim_logo} className="vim_logo" alt="Vim Logo" />
-            <img src={tmux_logo} className="tmux_logo" alt="Tmux Logo" />
-            <img src={figma_logo} className="figma_logo" alt="Figma Logo" />
-            <img src={vscode_logo} className="vscode_logo" alt="VS Code Logo" />
-            <img
-              src={androidstudio_logo}
-              className="Android Studio Logo"
-              alt=""
-            />
-            <img
-              src={flutter_logo}
-              className="flutter_logo"
-              alt="Flutter Logo"
-            />
-            <img src={latex_logo} className="latex_logo" alt="Latex Logo" />
-            <img src={jira_logo} className="jira_logo" alt="Jira Logo" />
-            <img
-              src={confluence_logo}
-              className="confluence_logo"
-              alt="Confluence Logo"
-            />
-          </div>
-        </div>
         <div className="Languages">
           <p>Languages 🔡</p>
           <div className="Images">
@@ -147,6 +111,41 @@ function Skills() {
               className="unittest_logo"
               alt="Unittest Logo"
             /> */}
+          </div>
+        </div>
+        <div className="Tools">
+          <p>Tools ⚒️</p>
+          <div className="Images">
+            <img
+              src={
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+              }
+              className="git_logo"
+              alt="Git Logo"
+            />
+            <img src={linux_logo} className="linux_logo" alt="Linux Logo" />
+            <img src={ubuntu_logo} className="ubuntu_logo" alt="Ubuntu Logo" />
+            <img src={vim_logo} className="vim_logo" alt="Vim Logo" />
+            <img src={tmux_logo} className="tmux_logo" alt="Tmux Logo" />
+            <img src={figma_logo} className="figma_logo" alt="Figma Logo" />
+            <img src={vscode_logo} className="vscode_logo" alt="VS Code Logo" />
+            <img
+              src={androidstudio_logo}
+              className="Android Studio Logo"
+              alt=""
+            />
+            <img
+              src={flutter_logo}
+              className="flutter_logo"
+              alt="Flutter Logo"
+            />
+            <img src={latex_logo} className="latex_logo" alt="Latex Logo" />
+            <img src={jira_logo} className="jira_logo" alt="Jira Logo" />
+            <img
+              src={confluence_logo}
+              className="confluence_logo"
+              alt="Confluence Logo"
+            />
           </div>
         </div>
       </div>
