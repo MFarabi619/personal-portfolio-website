@@ -7,8 +7,15 @@ background: #003329;
 }
 
 a{
-    color: white;
-    &:hover{
+  color: white;
+  transition: ease-in-out .3s;
+    &:hover{  
         color: #eeff00;
+        scale: 1.5;
     }
-}
+
+  }
+
+  p{
+    padding: 3rem;
+  }
