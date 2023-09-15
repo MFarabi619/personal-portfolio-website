@@ -8,7 +8,7 @@ let cardObj = [
   {
     imageUrl: "url(https://github.com/cusec/2024/assets/54924158/e3b8aad0-e604-43da-b7f3-8a68b27ee0ff)",
     title: "CUSEC 2024 Website",
-    body: "2024 edition of the largest student-run software engineering conference in Canada. (In development)",
+    body: "2024 edition of the largest student-run software engineering conference in Canada (in development).🧑‍💻",
     demoUrl: "https://2024-cusec-dev.vercel.app/",
     repoUrl: "https://github.com/cusec/2024",
   },
@@ -47,7 +47,7 @@ let cardObj = [
   imageUrl:
     "url(https://github.com/MFarabi619/random-quote-machine/raw/main/src/Screenshot%202023-02-01%20064359.jpg?raw=true)",
   title: "Random Quote Machine",
-  body: "A static website for displaying random quotes.",
+  body: "A static website for displaying random quotes.💬",
   demoUrl: "https://mfarabi619.github.io/random-quote-machine/",
   repoUrl: "https://github.com/MFarabi619/random-quote-machine",
   },
@@ -83,10 +83,10 @@ function Portfolio(props) {
       <h1 className="Title">Portfolio 💼</h1>
       <div className="Cards">
         <Resume_card 
-          key={'LateX Resume'}
+          key={'LateX Resumes'}
           imageUrl={'url("https://github.com/MFarabi619/personal-portfolio-website/blob/main/src/assets/Resume_image.jpg?raw=true")'}
-          title={'LateX Resume'}
-          body={'A well-designed resume that demonstrates attention to detail, customizability, and professional presentation. 📄'}
+          title={'LateX Resumes'}
+          body={'Well-designed resumes that demonstrate attention to detail, customizability, and professional presentation. 📄'}
         />
         {cardObj.map((contents) => (
           <Card
