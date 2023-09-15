@@ -28,6 +28,7 @@ import dart_logo from "/src/assets/svg/dart_logo.svg";
 
 import react_logo from "/src/assets/svg/react_logo.svg";
 import bootstrap_logo from "/src/assets/svg/bootstrap_logo.svg";
+import daisyui_logo from "/src/assets/png/daisyui_logo.png";
 // import unittest_logo from "/src/assets/svg/unittest_logo.png";
 import pytest_logo from "/src/assets/svg/pytest_logo.svg";
 
@@ -127,6 +128,12 @@ function Skills() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
               className="tailwindcss_logo"
               alt="Tailwindcss Logo"
+            />
+
+            <img
+              src={daisyui_logo}
+              className="daisyui_logo"
+              alt="Daisyui Logo"
             />
 
             <img
