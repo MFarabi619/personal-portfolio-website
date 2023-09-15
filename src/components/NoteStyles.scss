@@ -1,21 +1,18 @@
-.Note{
-display: flex;
-justify-content: center;
-background: #003329;
+.Note {
+  display: flex;
+  justify-content: center;
+  background: #003329;
   color: white;
   font-size: 1.5rem;
-}
 
-a{
-  color: white;
-  transition: ease-in-out .3s;
-    &:hover{  
-        color: #eeff00;
-        scale: 1.5;
+  a {
+    color: white;
+    transition: ease-in-out 0.3s;
+    &:hover {
+      color: #eeff00;
     }
-
   }
-
-  p{
+  p {
     padding: 3rem;
   }
+}
