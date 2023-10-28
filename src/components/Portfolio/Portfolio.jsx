@@ -9,7 +9,7 @@ let cardObj = [
     imageUrl: "url(https://github.com/cusec/2024/assets/54924158/e3b8aad0-e604-43da-b7f3-8a68b27ee0ff)",
     title: "CUSEC 2024 Website",
     body: "2024 edition of the largest student-run software engineering conference in Canada.🧑‍💻",
-    demoUrl: "https://2024-cusec-dev.vercel.app/",
+    demoUrl: "https://2024.cusec.net",
     repoUrl: "https://github.com/cusec/2024",
   },
   {
