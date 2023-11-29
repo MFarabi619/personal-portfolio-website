@@ -7,6 +7,7 @@ A website to showcase my skills and projects, thus acting as a digital resume.
 
 Learning log:
 
+- Deciding on component architecture.
 - Detected scroll event, and used it as a multiplier for image elements to create a parallax scrolling effect.
 - Quickly realized that setting fixed sizes to elements is not a good idea and makes them unresponsive. 
 - Scaling text with viewport width adds some responsiveness, but they get too big or too small at extreme screen sizes. Therefore the `clamp()`, `min()`, and `max()` functions should be used. 
