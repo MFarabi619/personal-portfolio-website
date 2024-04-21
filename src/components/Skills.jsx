@@ -58,7 +58,7 @@ function Skills() {
             />
 
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-plain-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg"
               className="lua_logo"
               alt="Lua Logo"
             />
@@ -89,7 +89,7 @@ function Skills() {
             <img src={react_logo} className="react_logo" alt="React Logo" />
 
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
               className="tailwindcss_logo"
               alt="Tailwindcss Logo"
             />
