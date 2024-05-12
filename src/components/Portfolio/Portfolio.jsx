@@ -13,6 +13,13 @@ let cardObj = [
     repoUrl: "https://github.com/cusec/2024",
   },
   {
+    imageUrl: "url(https://github.com/MFarabi619/MFarabi619/assets/54924158/d39cfd79-3469-4797-8284-f137d8ca7c93)",
+    title: "IEEE SPAC 2024 Website",
+    body: "2024 edition of the IEEE Student Professional Awareness Conference.🤝 (In development)",
+    demoUrl: "https://2024-ieee-spac-website.vercel.app/",
+    repoUrl: "https://github.com/SPAC-2024/2024-ieee-spac-website",
+  },
+  {
     imageUrl: "url(https://github.com/MFarabi619/Workday-Time-Entry-Script/blob/main/Project%20demo%20screenshot.png?raw=true)",
     title: "Automated Time Entry",
     body: "A Python script that automates the process of entering weekly work hours into the Workday employee portal.🤖",
