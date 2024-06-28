@@ -15,8 +15,8 @@ let cardObj = [
   {
     imageUrl: "url(https://github.com/MFarabi619/MFarabi619/assets/54924158/d39cfd79-3469-4797-8284-f137d8ca7c93)",
     title: "IEEE SPAC 2024 Website",
-    body: "2024 edition of the IEEE Student Professional Awareness Conference.🤝 (In development)",
-    demoUrl: "https://2024-ieee-spac-website.vercel.app/",
+    body: "2024 edition of the IEEE Student Professional Awareness Conference.🤝",
+    demoUrl: "https://ieeespac.ca",
     repoUrl: "https://github.com/SPAC-2024/2024-ieee-spac-website",
   },
   {
