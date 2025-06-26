@@ -13,7 +13,7 @@ import {
 let iconJSON = [
   {
     faIcon: FaEnvelope,
-    link: "mailto:mumtahin.farabi@gmail.com",
+    link: "mailto:mfarabi619@gmail.com",
     color: "#EA4335",
   },
   {
